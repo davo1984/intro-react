@@ -70,10 +70,10 @@ class App extends React.Component {
     if (this.state.buttonClicked === "students") {
       tabChoice = (
         <List
-          placeholder="Add Student.." 
-          currList={this.state.students}
-          addFunction={this.addStudent}
-          title="Student Roster"
+              placeholder="Add Assignment..."
+              currList={this.state.assignments}
+              addFunction={this.addAssignment}
+              title="Student Roster"
         />
       );
     }
